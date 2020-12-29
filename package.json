@@ -8,8 +8,9 @@
   "scripts": {
     "prettier-index": "prettier --check --trailing-comma=none index.js",
     "prettier-sample": "prettier --config ./sample-prettierx-prettierrc --plugin=. --parser=x-babel --check sample.js",
+    "prettier-sample-typescript": "prettier --config ./sample-prettierx-prettierrc --plugin=. --parser=x-typescript --check sample.js",
     "lint-sample": "standard sample.js",
-    "test": "npm run prettier-index && npm run lint-sample && npm run prettier-sample"
+    "test": "npm run prettier-index && npm run lint-sample && npm run prettier-sample && npm run prettier-sample-typescript"
   },
   "peerDependencies": {
     "prettier": "^2.0.0"
