@@ -11,6 +11,9 @@
     "lint-sample": "standard sample.js",
     "test": "npm run prettier-index && npm run lint-sample && npm run prettier-sample"
   },
+  "peerDependencies": {
+    "prettier": "^2.0.0"
+  },
   "dependencies": {
     "prettierx": "^0.14.3"
   },
