@@ -21,7 +21,7 @@ with the following config:
 }
 ```
 
-Note that this plugin uses the TypeScript parser that is bundled with stock Prettier.
+Note that for TypeScript this plugin uses the TypeScript parser that is bundled with stock Prettier.
 
 ## Sample usage
 
