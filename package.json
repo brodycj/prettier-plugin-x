@@ -3,7 +3,7 @@
   "version": "0.0.4-dev",
   "description": "TBD",
   "author": "@brodybits (Christopher J. Brody) <chris@brody.consulting>",
-  "license": "MIT",
+  "license": "(MIT OR Apache-2.0)",
   "main": "index.js",
   "scripts": {
     "prettier-index": "prettier --check --trailing-comma=none index.js",
