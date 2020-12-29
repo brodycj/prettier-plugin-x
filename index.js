@@ -1,4 +1,4 @@
-const parsers = require("prettierx/src/language-js/parser-babylon").parsers;
+const parsers = require("prettierx/src/language-js/parser-babel").parsers;
 
 const options = require("prettierx/src/language-js/options");
 
