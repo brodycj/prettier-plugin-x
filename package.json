@@ -1,6 +1,6 @@
 {
-  "name": "prettier-plugin-prettierx-babel",
-  "version": "0.0.2-dev",
+  "name": "prettier-plugin-x",
+  "version": "0.0.3-dev",
   "description": "TBD",
   "main": "index.js",
   "scripts": {

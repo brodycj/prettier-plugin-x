@@ -1,4 +1,4 @@
-# prettier-plugin-prettierx-babel
+# prettier-plugin-x
 
 ![license: MIT](https://img.shields.io/badge/license-MIT-green)
 
