@@ -6,7 +6,7 @@ const estree = require("prettierx/src/language-js/printer-estree");
 
 module.exports = {
   parsers: {
-    "prettierx-babel": {
+    "x-babel": {
       ...parsers.babel,
       astFormat: "prettierx-estree"
     }

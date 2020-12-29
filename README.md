@@ -24,7 +24,7 @@ with the following config:
 ## Sample usage
 
 ```
-prettier --config ./sample-prettierx-prettierrc --plugin=. --parser=prettierx-babel --check sample.js
+prettier --config ./sample-prettierx-prettierrc --plugin=. --parser=x-babel --check sample.js
 ```
 
 ## Thanks and credits
