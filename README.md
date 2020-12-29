@@ -1,5 +1,7 @@
 # prettier-plugin-prettierx-babel
 
+![license: MIT](https://img.shields.io/badge/license-MIT-green)
+
 Use Babel JavaScript parser with enhanced estree printer from `prettierx`,
 all in a Prettier plugin.
 
