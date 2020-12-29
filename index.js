@@ -8,11 +8,11 @@ module.exports = {
   parsers: {
     "x-babel": {
       ...parsers.babel,
-      astFormat: "prettierx-estree"
+      astFormat: "x-estree"
     }
   },
   options,
   printers: {
-    "prettierx-estree": estree
+    "x-estree": estree
   }
 };
