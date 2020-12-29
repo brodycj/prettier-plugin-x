@@ -4,7 +4,7 @@
   "description": "TBD",
   "main": "index.js",
   "scripts": {
-    "prettier-index": "prettier --check index.js",
+    "prettier-index": "prettier --check --trailing-comma=none index.js",
     "prettier-sample": "prettier --config ./sample-prettierx-prettierrc --plugin=. --parser=prettierx-babel --check sample.js",
     "lint-sample": "standard sample.js",
     "test": "npm run prettier-index && npm run lint-sample && npm run prettier-sample"
