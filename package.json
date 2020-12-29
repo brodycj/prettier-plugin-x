@@ -1,6 +1,6 @@
 {
   "name": "prettier-plugin-x",
-  "version": "0.0.3-dev",
+  "version": "0.0.4-dev",
   "description": "TBD",
   "main": "index.js",
   "scripts": {
