@@ -2,6 +2,8 @@
   "name": "prettier-plugin-x",
   "version": "0.0.4-dev",
   "description": "TBD",
+  "author": "@brodybits (Christopher J. Brody) <chris@brody.consulting>",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "prettier-index": "prettier --check --trailing-comma=none index.js",
@@ -9,8 +11,6 @@
     "lint-sample": "standard sample.js",
     "test": "npm run prettier-index && npm run lint-sample && npm run prettier-sample"
   },
-  "author": "@brodybits (Christopher J. Brody) <chris@brody.consulting>",
-  "license": "MIT",
   "dependencies": {
     "prettierx": "^0.14.3"
   },
