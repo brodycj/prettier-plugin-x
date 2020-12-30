@@ -1,6 +1,7 @@
 # prettier-plugin-x
 
-![license: MIT or Apache-2.0](https://img.shields.io/badge/license-MIT%20or%20Apache%202.0-green)
+[![LICENSE](https://img.shields.io/npm/l/prettier-plugin-x?color=green&style=flat-square)](./LICENSE.md)
+[![npm package](https://img.shields.io/npm/v/prettier-plugin-x?color=blue&style=flat-square)](https://www.npmjs.com/package/prettier-plugin-x)
 
 Use Babel or TypeScript parser with enhanced estree printer from `prettierx`,
 all in a Prettier plugin.
