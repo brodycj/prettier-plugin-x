@@ -7,6 +7,12 @@
   "homepage": "https://github.com/brodybits/prettier-plugin-x#readme",
   "bugs": "https://github.com/brodybits/prettier-plugin-x/issues",
   "main": "index.js",
+  "files": [
+    "LICENSE-Apache-2.0.txt",
+    "LICENSE.md",
+    "README.md",
+    "index.js"
+  ],
   "scripts": {
     "prettier-index": "prettier --check --trailing-comma=none index.js",
     "prettier-sample": "prettier --config ./sample-prettierx-prettierrc --plugin=. --parser=x-babel --check sample.js",
