@@ -4,6 +4,8 @@
   "description": "TBD",
   "author": "@brodybits (Christopher J. Brody) <chris@brody.consulting>",
   "license": "(MIT OR Apache-2.0)",
+  "homepage": "https://github.com/brodybits/prettier-plugin-x#readme",
+  "bugs": "https://github.com/brodybits/prettier-plugin-x/issues",
   "main": "index.js",
   "scripts": {
     "prettier-index": "prettier --check --trailing-comma=none index.js",
