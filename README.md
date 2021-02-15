@@ -42,7 +42,9 @@ or with the TypeScript parser:
 prettier --config ./sample-prettierx-prettierrc --plugin=. --parser=x-typescript --check sample.js
 ```
 
+Note that the `--plugin` option is not needed if this plugin is installed as a peer of Prettier.
+
 ## Thanks and credits
 
 - Thanks to https://github.com/prettier/plugin-php for an easy-to-understand Prettier plugin,
-  which helped scaffold this Prettier plugin.
+  which helped with the initial structure of this Prettier plugin.
