@@ -30,6 +30,12 @@ Note that for TypeScript this plugin uses the TypeScript parser that is bundled 
 prettier --config ./sample-prettierx-prettierrc --plugin=. --parser=x-babel --check sample.js
 ```
 
+with `babel-ts` parser:
+
+```
+prettier --config ./sample-prettierx-prettierrc --plugin=. --parser=x-babel-ts --check sample.js
+```
+
 or with the TypeScript parser:
 
 ```

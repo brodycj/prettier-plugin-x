@@ -12,6 +12,10 @@ module.exports = {
       ...parsers.babel,
       astFormat: "x-estree"
     },
+    "x-babel-ts": {
+      ...parsers["babel-ts"],
+      astFormat: "x-estree"
+    },
     "x-typescript": {
       ...typescript,
       astFormat: "x-estree"
