@@ -2,7 +2,7 @@
   "name": "prettier-plugin-x",
   "version": "0.0.6-dev",
   "description": "TBD",
-  "author": "@brodybits (Christopher J. Brody) <chris@brody.consulting>",
+  "author": "@brodybits (Christopher J. Brody) <chris.brody+brodybits@gmail.com>",
   "license": "(MIT OR Apache-2.0)",
   "homepage": "https://github.com/brodybits/prettier-plugin-x#readme",
   "bugs": "https://github.com/brodybits/prettier-plugin-x/issues",
