@@ -25,7 +25,7 @@
     "prettier": "^2.0.0"
   },
   "dependencies": {
-    "prettierx": "^0.17.0"
+    "prettierx": "^0.18.2"
   },
   "devDependencies": {
     "prettier": "^2.2.1",
