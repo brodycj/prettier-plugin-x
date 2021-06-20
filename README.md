@@ -16,6 +16,9 @@ Requires explicit configuration of parser. Recommended configuation helpers:
 - [`prettier-config-x`](https://github.com/brodybits/prettier-config-x)
 - [`prettier-config-x-standard`](https://github.com/brodybits/prettier-config-x-standard)
 
+Recommended alternative: [`prettier-plugin-x-babel`](https://github.com/brodybits/prettier-plugin-x-babel),
+with fixed use of **[Babel](https://babeljs.io/)** parser for ES languages JavaScript, Flow, and TypeScript.
+
 Includes options from **[prettierX](https://github.com/brodybits/prettierx)** for
 improved parity with **["Standard JS"](https://standardjs.com/)**, for example:
 
