@@ -1,0 +1,15 @@
+{
+  "name": "prettier-plugin-test",
+  "version": "0.0.8-dev",
+  "author": "@brodybits (Christopher J. Brody) <chris.brody+brodybits@gmail.com>",
+  "license": "(MIT OR Apache-2.0)",
+  "private": true,
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "prettier": "^2.0.0",
+    "prettierx": "*"
+  }
+}

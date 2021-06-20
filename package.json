@@ -15,9 +15,9 @@
   ],
   "scripts": {
     "prettier-index": "prettier --check --trailing-comma=none index.js",
-    "prettier-sample": "prettier --config ./sample-prettierx-prettierrc --plugin=. --parser=x-babel --check sample.js",
-    "prettier-sample-babel-ts": "prettier --config ./sample-prettierx-prettierrc --plugin=. --parser=x-babel-ts --check sample.js",
-    "prettier-sample-typescript": "prettier --config ./sample-prettierx-prettierrc --plugin=. --parser=x-typescript --check sample.js",
+    "prettier-sample": "prettier --config ./sample-prettierx-prettierrc --parser=x-babel --check sample.js",
+    "prettier-sample-babel-ts": "prettier --config ./sample-prettierx-prettierrc --parser=x-babel-ts --check sample.js",
+    "prettier-sample-typescript": "prettier --config ./sample-prettierx-prettierrc --parser=x-typescript --check sample.js",
     "lint-sample": "standard sample.js",
     "test": "npm run prettier-index && npm run lint-sample && npm run prettier-sample && npm run prettier-sample-babel-ts && npm run prettier-sample-typescript"
   },
@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "prettier": "^2.2.1",
+    "prettier-plugin-test": "link:prettier-plugin-test",
     "standard": "^16.0.3"
   }
 }

@@ -27,19 +27,19 @@ Note that for TypeScript this plugin uses the TypeScript parser that is bundled 
 ## Sample usage
 
 ```
-prettier --config ./sample-prettierx-prettierrc --plugin=. --parser=x-babel --check sample.js
+prettier --config ./sample-prettierx-prettierrc --parser=x-babel --check sample.js
 ```
 
 with `babel-ts` parser:
 
 ```
-prettier --config ./sample-prettierx-prettierrc --plugin=. --parser=x-babel-ts --check sample.js
+prettier --config ./sample-prettierx-prettierrc --parser=x-babel-ts --check sample.js
 ```
 
 or with the TypeScript parser:
 
 ```
-prettier --config ./sample-prettierx-prettierrc --plugin=. --parser=x-typescript --check sample.js
+prettier --config ./sample-prettierx-prettierrc --parser=x-typescript --check sample.js
 ```
 
 Note that the `--plugin` option is not needed if this plugin is installed as a peer of Prettier.
