@@ -1,7 +1,7 @@
 {
   "name": "prettier-plugin-x",
   "version": "0.0.7-dev",
-  "description": "TBD",
+  "description": "Use pretty printer with options from prettierX, all in a Prettier plugin.",
   "author": "@brodybits (Christopher J. Brody) <chris.brody+brodybits@gmail.com>",
   "license": "(MIT OR Apache-2.0)",
   "homepage": "https://github.com/brodybits/prettier-plugin-x#readme",
