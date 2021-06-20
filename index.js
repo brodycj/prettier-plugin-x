@@ -15,6 +15,10 @@ module.exports = {
       ...parsers.babel,
       astFormat: "x-estree"
     },
+    "x-babel-flow": {
+      ...parsers["babel-flow"],
+      astFormat: "x-estree"
+    },
     "x-babel-ts": {
       ...parsers["babel-ts"],
       astFormat: "x-estree"

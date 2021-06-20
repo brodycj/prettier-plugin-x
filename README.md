@@ -72,6 +72,14 @@ or with the TypeScript parser:
 prettier --config ./sample-prettierx-prettierrc --parser=x-typescript --check sample.js
 ```
 
+with `babel-flow` parser:
+
+```console
+prettier --config ./sample-prettierx-prettierrc --parser=x-babel-flow --check sample.js
+```
+
+Note that the `--plugin` option is not needed if this plugin is installed as a peer of Prettier.
+
 ## Thanks and credits
 
 - Thanks to **[`@prettier/plugin-php`](https://github.com/prettier/plugin-php)**
