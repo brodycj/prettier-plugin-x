@@ -3,48 +3,74 @@
 [![LICENSE](https://img.shields.io/npm/l/prettier-plugin-x?color=green&style=flat-square)](./LICENSE.md)
 [![npm package](https://img.shields.io/npm/v/prettier-plugin-x?color=blue&style=flat-square)](https://www.npmjs.com/package/prettier-plugin-x)
 
-Use Babel or TypeScript parser with enhanced estree printer from `prettierx`,
-all in a Prettier plugin.
+Use pretty printer with enhanced estree printer options from **[prettierX](https://github.com/brodybits/prettierx)**,
+all in a **[Prettier plugin](https://prettier.io/docs/en/plugins.html)**.
 
-With options from `prettierx` to support much closer parity with "Standard JS",
-for example:
+Supported parsers:
+
+- **[Babel](https://babeljs.io/)**
+- **[Microsoft TypeScript](https://github.com/Microsoft/TypeScript)**
+
+Requires explicit configuration of parser. Recommended configuation helpers:
+
+- [`prettier-config-x`](https://github.com/brodybits/prettier-config-x)
+- [`prettier-config-x-standard`](https://github.com/brodybits/prettier-config-x-standard)
+
+Includes options from **[prettierX](https://github.com/brodybits/prettierx)** for
+improved parity with **["Standard JS"](https://standardjs.com/)**, for example:
 
 ```js
 function * a () {}
+
+console.log(typeof a)
 ```
 
-with the following config:
+with the following `.prettierrc` configuration:
 
-```json
+```js
 {
+  semi: false,
   generatorStarSpacing: true,
   spaceBeforeFunctionParen: true
 }
 ```
 
-Note that for TypeScript this plugin uses the TypeScript parser that is bundled with stock Prettier.
+Note that for the non-Babel `x-typescript` parser this plugin uses the TypeScript parser that is bundled with stock Prettier.
+
+## Installation
+
+with Yarn (recommended):
+
+```console
+yarn add --dev prettier-plugin-x
+```
+
+or with npm:
+
+```console
+npm install --save-dev prettier-plugin-x
+```
 
 ## Sample usage
 
-```
+```console
 prettier --config ./sample-prettierx-prettierrc --parser=x-babel --check sample.js
 ```
 
 with `babel-ts` parser:
 
-```
+```console
 prettier --config ./sample-prettierx-prettierrc --parser=x-babel-ts --check sample.js
 ```
 
 or with the TypeScript parser:
 
-```
+```console
 prettier --config ./sample-prettierx-prettierrc --parser=x-typescript --check sample.js
 ```
 
-Note that the `--plugin` option is not needed if this plugin is installed as a peer of Prettier.
-
 ## Thanks and credits
 
-- Thanks to https://github.com/prettier/plugin-php for an easy-to-understand Prettier plugin,
+- Thanks to **[`@prettier/plugin-php`](https://github.com/prettier/plugin-php)**
+  for an easy-to-understand Prettier plugin,
   which helped with the initial structure of this Prettier plugin.
