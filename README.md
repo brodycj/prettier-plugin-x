@@ -20,7 +20,8 @@ Recommended alternative: [`prettier-plugin-x-babel`](https://github.com/brodybit
 with fixed use of **[Babel](https://babeljs.io/)** parser for ES languages JavaScript, Flow, and TypeScript.
 
 Includes options from **[prettierX](https://github.com/brodybits/prettierx)** for
-improved parity with **["Standard JS"](https://standardjs.com/)**, for example:
+improved consistency with **["Standard JS"](https://standardjs.com/)** formatting,
+for example:
 
 ```js
 function * a () {}
