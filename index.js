@@ -1,13 +1,12 @@
-const { parsers } = require("prettierx/src/language-js/parser-babel");
-
 const {
   parsers: { typescript }
 } = require("prettier/parser-typescript");
 
 const {
+  parsers,
   options,
   printers: { estree }
-} = require("prettierx/src/language-js");
+} = require("x-formatter").languages[0];
 
 module.exports = {
   parsers: {

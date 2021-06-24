@@ -26,7 +26,7 @@
     "prettier": "^2.0.0"
   },
   "dependencies": {
-    "prettierx": "^0.18.2"
+    "x-formatter": "^0.0.1"
   },
   "devDependencies": {
     "prettier": "^2.2.1",
