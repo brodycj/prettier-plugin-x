@@ -1,6 +1,6 @@
 {
   "name": "prettier-plugin-x",
-  "version": "0.0.10-dev",
+  "version": "0.0.10",
   "description": "Use pretty printer with enhanced estree printer options from prettierX, all in a Prettier plugin.",
   "author": "@brodybits (Christopher J. Brody) <chris.brody+brodybits@gmail.com>",
   "license": "(MIT OR Apache-2.0)",
