@@ -3,8 +3,10 @@
 [![LICENSE](https://img.shields.io/npm/l/prettier-plugin-x?color=green&style=flat-square)](./LICENSE.md)
 [![npm package](https://img.shields.io/npm/v/prettier-plugin-x?color=blue&style=flat-square)](https://www.npmjs.com/package/prettier-plugin-x)
 
-Use pretty printer with enhanced estree printer options from **[prettierX](https://github.com/brodybits/prettierx)**,
-all in a **[Prettier plugin](https://prettier.io/docs/en/plugins.html)**.
+Use [`prettier x-formatter`](https://github.com/brodybits/prettier-x-formatter) -
+a code formatter with enhanced estree printer options from
+**[prettierX](https://github.com/brodybits/prettierx)**, all in a
+**[Prettier plugin](https://prettier.io/docs/en/plugins.html)**.
 
 Supported parsers:
 
